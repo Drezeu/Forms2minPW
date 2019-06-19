@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+	<style type="text/css">
+		#a{
+			background:  #0066cc;
+		}
+
+		#b{
+
+			width: 25%;
+			height: auto;
+			position: absolute;
+			left: 10px;
+		}
+		#d{
+			width: 69%;
+			height: 300px;
+			position: absolute;
+			right: 10px;
+		}
+		#e{
+			position:absolute;
+			left:10px;
+		}
+		#caixa2{
+			position: relative;
+			left: 400px;
+			bottom: 234px;
+		}
+
+
+
+	</style>
+<body>
+	<meta charset="utf-8">
+	<center>
+	<fieldset id="a">
+		<h1>Ótima escolha!</h1>
+		<br>
+		Obrigado por comprar na Avengers Fashion! Preencha seus dados para efetuar a compra.
+	</fieldset>	
+	<div id="b">
+	<fieldset id="b">
+		<h1>Sua compra:</h1>
+		<fieldset id="c">
+			<img src="miranha1.jpg">
+			
+		</fieldset>
+		<h3>Produto:</h3>
+		Moleton Do Homem Aranha
+		<h3>Cor:</h3>	
+		Azul, Vermelho, Dourado e Preto
+		<h3>Tamanho:</h3>
+		Grande
+		<h3>Preço:</h3>
+		R$ 350,00		
+	</fieldset>
+</div>
+<div>
+	<fieldset id="d">
+
+		<form id="e" action="arquivophp.php" method="Post">
+			<div id="caixa1">
+				<fieldset>
+			<h1>Dados Pessoais:</h1>
+		
+			Nome:
+			<table><input type="text" name="nomec"></table>
+			<br>
+			<br> 
+			E-mail:
+			<table><input type="email" name="email" placeholder="email@exemplo.com"></table>
+			<br>
+			<br>
+			Cpf:
+			<table><input type="text" name="cpf" placeholder="1111-111-111-1"> </table>
+ 	     </fieldset>	
+ 	     	</div>
+
+ 	     	<div id="caixa2">
+ 	     		<fieldset>
+ 	     	<h1>Metodo De Pagamento</h1>
+ 	     		Numero Do Cartão:
+ 	     	<table><input type="text" name="cart"></table>
+ 	     	<br>
+ 	     	<br>
+ 	     	   Bandeira Do Cartão:
+ 	     	<table><input type="text" name="band"></table>
+ 	     		<br>
+ 	     	<br>
+ 	     		Validade:
+ 	     	<table><input type="date" name="vali"></table>
+ 	     	<br>
+ 	     	<br>
+               <input type="submit" value="enviar" style="background-color: #99ff99;" >      
+ </fieldset>
+ 	     	</div>
+              
+			</form>
+
+	</fieldset>
+	</center>
+</div>	
+</body>
+</html>
